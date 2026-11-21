@@ -3,8 +3,8 @@ SamplerState samplerState : register(s0);
 
 cbuffer PixelShaderSettings : register(b0) {
     float Time;
-    float3 Scale;
-    float3 Resolution;
+    float Scale;
+    float2 Resolution;
     float4 Background;
 };
 
